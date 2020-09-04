@@ -1,0 +1,53 @@
+html, body, #root {
+  margin: 0;
+  height:100%;
+  width: 100%;
+}
+
+.App {
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.menuButtons {
+  border:none;
+  height: 3vw;
+  margin-bottom: 50px;
+}
+
+.menuButtonImg {
+  height: 3vw;
+  pointer-events: none;
+}
+
+.menu {
+  height:100%;
+  width: 5%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  height:100%;
+  width: 95%;
+  background-color: #2f4030;
+  display: flex;
+  flex: row;
+}
+
+.clockBlock {
+  height:100%;
+  width: 50%;
+}
+
+.toDoThingBlock {
+  box-shadow: 15px 0 15px -15px black;
+  height:100%;
+  width: 50%;
+  background-color: #2f4030;
+}

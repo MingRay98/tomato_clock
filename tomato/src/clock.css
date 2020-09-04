@@ -1,0 +1,186 @@
+  .main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .tooltipBlock {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tooltip {
+    animation: jelly 0.6s;
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 20;
+    margin-left: 6vw;
+    height: 180px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .tooltipTitle {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .tooltipContent {
+    text-align: center;
+  }
+
+  .tooltipButton{
+    margin-top: 8px;
+    height: 45px;
+    width: 180px;
+  }
+
+  .tooltipInput{
+    margin: 5px;
+    width: 50px;
+  }
+
+  .alert{
+    color: tomato;
+  }
+
+  .nowTimeBlock {
+    height:5%;
+    width: 100%;
+  }
+  
+  .nowTime{
+    color: white;
+    font-size: 20px;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .dateTime {
+    margin-right: 45px;
+  }
+
+  .weekTime {
+    margin-right: 10px;
+  }
+
+  .countDownBlock {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:60%;
+    width: 100%;
+  }
+
+  .countDownText{
+    width: 50%;
+    height: 100%;
+  }
+
+  .countDownTimeBlock {
+    margin-top: -2.5%;
+    padding-left: 5%;
+    width: 30%;
+    height: 100%;
+    margin-right: 10%;
+  }
+
+  .countDownTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10vw;
+  }
+
+  .rest {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .restTitle {
+    font-size: 5vw;
+    color: white;
+  }
+
+  .countDownButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .countDownButton{
+    border-radius: 3vw;
+    border-color:white;
+    outline: none;
+    height: 3vw;
+    width: 3vw;
+    background-color: transparent;
+  }
+
+  .playButton{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 4vw;
+    border-color:white;
+    outline: none;
+    height: 4vw;
+    width: 4vw;
+    background-color: white;
+  }
+
+  .playButtonImg {
+    width: 60%;
+  }
+
+  .countDownbuttonImg {
+    width: 100%;
+  }
+
+  .tomatoClock {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:35%;
+    width: 100%;
+  }
+
+  .tomatoImg {
+    width: 60%;
+  }
+
+  @keyframes jelly {
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
