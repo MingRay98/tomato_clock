@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/tomato_clock/static/css/main.086f7f2a.chunk.css",
+    "main.js": "/tomato_clock/static/js/main.a468ccff.chunk.js",
+    "main.js.map": "/tomato_clock/static/js/main.a468ccff.chunk.js.map",
+    "runtime-main.js": "/tomato_clock/static/js/runtime-main.f3904079.js",
+    "runtime-main.js.map": "/tomato_clock/static/js/runtime-main.f3904079.js.map",
+    "static/js/2.e818d6b2.chunk.js": "/tomato_clock/static/js/2.e818d6b2.chunk.js",
+    "static/js/2.e818d6b2.chunk.js.map": "/tomato_clock/static/js/2.e818d6b2.chunk.js.map",
+    "index.html": "/tomato_clock/index.html",
+    "precache-manifest.88f1186908320f03344331902bf95ade.js": "/tomato_clock/precache-manifest.88f1186908320f03344331902bf95ade.js",
+    "service-worker.js": "/tomato_clock/service-worker.js",
+    "static/css/main.086f7f2a.chunk.css.map": "/tomato_clock/static/css/main.086f7f2a.chunk.css.map",
+    "static/js/2.e818d6b2.chunk.js.LICENSE.txt": "/tomato_clock/static/js/2.e818d6b2.chunk.js.LICENSE.txt",
+    "static/media/icon-analysis.svg": "/tomato_clock/static/media/icon-analysis.e96b4269.svg",
+    "static/media/icon-bell.svg": "/tomato_clock/static/media/icon-bell.526aed07.svg",
+    "static/media/icon-cancel.svg": "/tomato_clock/static/media/icon-cancel.872654be.svg",
+    "static/media/icon-list.svg": "/tomato_clock/static/media/icon-list.c5316630.svg",
+    "static/media/icon-pause--orange.svg": "/tomato_clock/static/media/icon-pause--orange.5094d45d.svg",
+    "static/media/icon-play--green.svg": "/tomato_clock/static/media/icon-play--green.a5c4a07e.svg",
+    "static/media/music.mp3": "/tomato_clock/static/media/music.03ecd123.mp3",
+    "static/media/tomato--green.svg": "/tomato_clock/static/media/tomato--green.4298a104.svg",
+    "static/media/tomato--orange.svg": "/tomato_clock/static/media/tomato--orange.f4d25225.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3904079.js",
+    "static/js/2.e818d6b2.chunk.js",
+    "static/css/main.086f7f2a.chunk.css",
+    "static/js/main.a468ccff.chunk.js"
+  ]
+}
