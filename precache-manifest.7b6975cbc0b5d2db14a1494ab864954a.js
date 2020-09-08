@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a059ff86d5e3a6c28ef54188227b14f1",
+    "revision": "7774bcd31e5ec24c90b465c7bd5c6d08",
     "url": "/tomato_clock/index.html"
   },
   {
-    "revision": "ac97a8b2bf8a261c5a9e",
-    "url": "/tomato_clock/static/css/main.086f7f2a.chunk.css"
+    "revision": "ccbb2d88ccc4c1fa1d7c",
+    "url": "/tomato_clock/static/css/main.641aa026.chunk.css"
   },
   {
-    "revision": "4403672296794b479f3b",
-    "url": "/tomato_clock/static/js/2.e818d6b2.chunk.js"
+    "revision": "d7e761595786eb93e3c0",
+    "url": "/tomato_clock/static/js/2.bfaaedec.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/tomato_clock/static/js/2.e818d6b2.chunk.js.LICENSE.txt"
+    "url": "/tomato_clock/static/js/2.bfaaedec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac97a8b2bf8a261c5a9e",
-    "url": "/tomato_clock/static/js/main.a468ccff.chunk.js"
+    "revision": "ccbb2d88ccc4c1fa1d7c",
+    "url": "/tomato_clock/static/js/main.f39f9e76.chunk.js"
   },
   {
     "revision": "19b4d47474a81b784947",
     "url": "/tomato_clock/static/js/runtime-main.f3904079.js"
+  },
+  {
+    "revision": "027e568eed6bd28d7428d698afff12e6",
+    "url": "/tomato_clock/static/media/chart_1.027e568e.png"
+  },
+  {
+    "revision": "011cd36d610486f88cce32eb3b1ea34c",
+    "url": "/tomato_clock/static/media/chart_3.011cd36d.png"
+  },
+  {
+    "revision": "be0c76661ea204d94472fae5844bb6ff",
+    "url": "/tomato_clock/static/media/chart_4.be0c7666.png"
   },
   {
     "revision": "e96b4269d4c32caf1f74ebd2806c5e73",
