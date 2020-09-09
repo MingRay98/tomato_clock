@@ -32,6 +32,12 @@ https://challenge.thef2e.com/user/3?schedule=2590#works-2590<br><br>
 ▶▶成果4<br>
 <img src="https://github.com/ruby840124/tomato_clock/blob/master/image/clock_5.JPG" width="50%" height="50%"> <br><br>
 **mobile結果**
+▶▶成果1<br>
+<img src="https://github.com/ruby840124/tomato_clock/blob/master/image/mobile_1.jpg" width="30%" height="30%"> <br><br>
+▶▶成果2<br>
+<img src="https://github.com/ruby840124/tomato_clock/blob/master/image/mobile_2.jpg" width="30%" height="30%"> <br><br>
+▶▶成果3<br>
+<img src="https://github.com/ruby840124/tomato_clock/blob/master/image/mobile_setTime_.jpg" width="30%" height="30%"> <br><br>
 ▶▶DEMO網站<br>
 https://ruby840124.github.io/tomato_clock/<br>
 ▶▶更新事項<br>
