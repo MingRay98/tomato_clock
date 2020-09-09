@@ -40,6 +40,8 @@ https://challenge.thef2e.com/user/3?schedule=2590#works-2590<br><br>
 <img src="https://github.com/ruby840124/tomato_clock/blob/master/image/mobile_setTime_.jpg" width="30%" height="30%"> <br><br>
 ▶▶DEMO網站<br>
 https://ruby840124.github.io/tomato_clock/<br>
+
 ▶▶更新事項<br>
-尚未調整手機版面&RWD<br>
-RRRRRRRRRRRRR~恭喜已經禮拜五了!!開心 ^0^<br>
+上班偷更新西西><~<br>
+做不到兩天ㄉ小東西~<br>
+希望能力可以再多加進步~讚讚<br>
