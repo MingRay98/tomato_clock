@@ -25,13 +25,18 @@
     border-radius: 10px;
     z-index: 20;
     margin-left: 6vw;
-    height: 180px;
-    width: 350px;
+    height: 190px;
+    width: 320px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    align-items: center;
+    align-items: flex-end;
+  }
+
+  .close {
+    height: 20px;
+    width: 20px;
   }
 
   .tooltipTitle {
@@ -63,6 +68,7 @@
   .nowTimeBlock {
     height:5%;
     width: 100%;
+    margin-top: 15px;
   }
   
   .nowTime{
@@ -154,7 +160,7 @@
   }
 
   .playButtonImg {
-    width: 60%;
+    width: 80%;
   }
 
   .countDownbuttonImg {
@@ -184,3 +190,42 @@
       transform: scale(0.95, 1.05);
     }
   }
+
+  @media only screen and (max-width: 700px) {
+    .countDownButton{
+      border-radius: 25px;
+      border-color:white;
+      outline: none;
+      height: 25px;
+      width: 25px;
+      background-color: transparent;
+    }
+
+    .playButton{
+      margin-left: 15px;
+      margin-right: 15px;
+      border-radius: 25px;
+      border-color:white;
+      outline: none;
+      height: 25px;
+      width: 25px;
+      background-color: white;
+    }
+
+    .countDownTime {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 50px;
+    }
+
+    .countDownText{
+      width: 35%;
+      height: 100%;
+    }
+  
+  }
+
+  

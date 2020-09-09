@@ -1,4 +1,5 @@
 import React from 'react';
+import close from './assets/close.png';
 import greenTomato from './assets/tomato--green.svg';
 import redTomato from './assets/tomato--orange.svg';
 import bell from './assets/icon-bell.svg';
@@ -146,7 +147,7 @@ class clock extends React.Component {
       const {restState} = this.state;
       if(restState){
         return (
-          <div className = 'rest'>
+          <div className = 'rest' style={{fontSize:this.isMobile()?'12px':'1.5vw'}}>
             <div className = 'restTitle'>休息，<br/>
             </div>
             是為了下一次的路，<br/>
@@ -155,13 +156,25 @@ class clock extends React.Component {
         );
       }
       return (
-        <div className = 'rest'>
+        <div className = 'rest' style={{fontSize:this.isMobile()?'12px':'1.5vw'}}>
           <div className = 'restTitle'>Fighting!!<br/>
           </div>
           人生就是不停的戰鬥!!<br/>
           在時間內完成自己想做的事情吧~
         </div>
       );
+    }
+
+    isMobile = () => {
+      try{ 
+        document.createEvent("TouchEvent"); return true; 
+      }catch(e){ 
+        return false;
+      }
+    }
+
+    closeTooltip = () => {
+      this.setState({bellState: false, alertText: ''});
     }
     
 
@@ -173,29 +186,32 @@ class clock extends React.Component {
     
       return minutes + ":" + seconds;
     }
-  
+
     render() {
       const {date, restState, countDownSeconds, bellState, alertText} = this.state;
       const {clockState} = this.props;
       return (
-        <div className = "main">
+        <div className = "main" >
           {bellState && 
           <div className = "tooltipBlock">
             <div className = "tooltip">
-                <div className = "tooltipTitle">設定時間:</div>
-                <div className = "tooltipContent" >
-                  請輸入想倒數的時間:<br/>
+                <div onClick={this.closeTooltip}><img src={close} className="close"></img></div>
+                <div style={{width:'100%', display:'flex', justifyItems:'center', alignItems:'center', flexDirection:'column'}}>
+                  <div className = "tooltipTitle">設定時間:</div>
+                  <div className = "tooltipContent" >
+                    請輸入想倒數的時間:<br/>
                   <input className = "tooltipInput" id='min'></input>:
                   <input className = "tooltipInput" id='sec'></input>
+                  </div>
+                  <div className = "alert">{alertText}</div>
+                  <button className = "tooltipButton" onClick={this.setTime}>確定</button>
                 </div>
-                <div className = "alert">{alertText}</div>
-                <button className = "tooltipButton" onClick={this.setTime}>確定</button>
             </div>
           </div>}
           <div className = "nowTimeBlock">
             <div className = "nowTime">
               <div className = "dateTime">
-                {date.getFullYear() + '/' + date.getMonth() + '/' + date.getDate()}
+                {date.getFullYear() + '/' + (Number(date.getMonth())+1) + '/' + date.getDate()}
               </div>
               <div className = "weekTime">
                 {dayOfWeekArray[date.getDay()]}
