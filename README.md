@@ -42,6 +42,6 @@ https://challenge.thef2e.com/user/3?schedule=2590#works-2590<br><br>
 https://ruby840124.github.io/tomato_clock/<br>
 
 ▶▶更新事項<br>
-上班偷更新西西><~<br>
-做不到兩天ㄉ小東西~<br>
+上班偷更新ㄎㄎ~<br>
+做不到兩天ㄉ小東西<br>
 希望能力可以再多加進步~讚讚<br>
