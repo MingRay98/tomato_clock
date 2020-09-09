@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/tomato_clock/static/css/main.641aa026.chunk.css",
-    "main.js": "/tomato_clock/static/js/main.f39f9e76.chunk.js",
-    "main.js.map": "/tomato_clock/static/js/main.f39f9e76.chunk.js.map",
+    "main.css": "/tomato_clock/static/css/main.ac9d6b8b.chunk.css",
+    "main.js": "/tomato_clock/static/js/main.890b160b.chunk.js",
+    "main.js.map": "/tomato_clock/static/js/main.890b160b.chunk.js.map",
     "runtime-main.js": "/tomato_clock/static/js/runtime-main.f3904079.js",
     "runtime-main.js.map": "/tomato_clock/static/js/runtime-main.f3904079.js.map",
-    "static/js/2.bfaaedec.chunk.js": "/tomato_clock/static/js/2.bfaaedec.chunk.js",
-    "static/js/2.bfaaedec.chunk.js.map": "/tomato_clock/static/js/2.bfaaedec.chunk.js.map",
+    "static/js/2.59ca156a.chunk.js": "/tomato_clock/static/js/2.59ca156a.chunk.js",
+    "static/js/2.59ca156a.chunk.js.map": "/tomato_clock/static/js/2.59ca156a.chunk.js.map",
     "index.html": "/tomato_clock/index.html",
-    "precache-manifest.7b6975cbc0b5d2db14a1494ab864954a.js": "/tomato_clock/precache-manifest.7b6975cbc0b5d2db14a1494ab864954a.js",
+    "precache-manifest.9cd80cba56f51c0981666524d55cb47e.js": "/tomato_clock/precache-manifest.9cd80cba56f51c0981666524d55cb47e.js",
     "service-worker.js": "/tomato_clock/service-worker.js",
-    "static/css/main.641aa026.chunk.css.map": "/tomato_clock/static/css/main.641aa026.chunk.css.map",
-    "static/js/2.bfaaedec.chunk.js.LICENSE.txt": "/tomato_clock/static/js/2.bfaaedec.chunk.js.LICENSE.txt",
+    "static/css/main.ac9d6b8b.chunk.css.map": "/tomato_clock/static/css/main.ac9d6b8b.chunk.css.map",
+    "static/js/2.59ca156a.chunk.js.LICENSE.txt": "/tomato_clock/static/js/2.59ca156a.chunk.js.LICENSE.txt",
     "static/media/chart_1.png": "/tomato_clock/static/media/chart_1.027e568e.png",
     "static/media/chart_3.png": "/tomato_clock/static/media/chart_3.011cd36d.png",
     "static/media/chart_4.png": "/tomato_clock/static/media/chart_4.be0c7666.png",
+    "static/media/close.png": "/tomato_clock/static/media/close.a6a3fa81.png",
     "static/media/icon-analysis.svg": "/tomato_clock/static/media/icon-analysis.e96b4269.svg",
     "static/media/icon-bell.svg": "/tomato_clock/static/media/icon-bell.526aed07.svg",
     "static/media/icon-cancel.svg": "/tomato_clock/static/media/icon-cancel.872654be.svg",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3904079.js",
-    "static/js/2.bfaaedec.chunk.js",
-    "static/css/main.641aa026.chunk.css",
-    "static/js/main.f39f9e76.chunk.js"
+    "static/js/2.59ca156a.chunk.js",
+    "static/css/main.ac9d6b8b.chunk.css",
+    "static/js/main.890b160b.chunk.js"
   ]
 }
