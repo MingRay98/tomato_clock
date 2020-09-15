@@ -22,7 +22,7 @@ https://challenge.thef2e.com/user/3?schedule=2590#works-2590<br><br>
 完整的鬧鐘、分析功能，<br>
 目前分析功能還沒做。(其實我也不知道是有啥功能，我就只有UI圖而已XD)<br>
 
-**PC結果**
+**PC結果**<br>
 ▶▶成果1<br>
 <img src="https://github.com/ruby840124/tomato_clock/blob/master/image/clock_1.JPG" width="50%" height="50%"> <br><br>
 ▶▶成果2<br>
@@ -31,7 +31,7 @@ https://challenge.thef2e.com/user/3?schedule=2590#works-2590<br><br>
 <img src="https://github.com/ruby840124/tomato_clock/blob/master/image/PC_setTime.JPG" width="50%" height="50%"> <br><br>
 ▶▶成果4<br>
 <img src="https://github.com/ruby840124/tomato_clock/blob/master/image/clock_6.JPG" width="50%" height="50%"> <br><br>
-**mobile結果**
+**mobile結果**<br>
 ▶▶成果1<br>
 <img src="https://github.com/ruby840124/tomato_clock/blob/master/image/mobile_1.jpg" width="30%" height="30%"> <br><br>
 ▶▶成果2<br>
